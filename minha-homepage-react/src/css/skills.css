@@ -1,0 +1,84 @@
+/* skills.css */
+
+:root {
+    --html-color: rgb(255, 129, 40);
+    --css-color: #17a2b8;
+    --js-color: #ffc107;
+    --bootstrap-color: purple;
+    --sass-color: #dc3545;
+    --react-color: #087ea4;
+    --git-color: #182a30;
+}
+
+.badge-html {
+    background-color: var(--html-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-css {
+    background-color: var(--css-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-js {
+    background-color: var(--js-color);
+    color: #212529;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-bootstrap {
+    background-color: var(--bootstrap-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-sass {
+    background-color: var(--sass-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-react {
+    background-color: var(--react-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-git {
+    background-color: var(--git-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.badge-html:hover,
+.badge-css:hover,
+.badge-js:hover,
+.badge-bootstrap:hover,
+.badge-sass:hover,
+.badge-react:hover,
+.badge-git:hover {
+    transform: scale(1.1); /* Efeito de zoom no hover */
+}

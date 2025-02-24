@@ -1,0 +1,26 @@
+.navbar {
+    padding: 1rem 0;
+    background: linear-gradient(to right, var(--primary-color), white);
+}
+
+.nav-item {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

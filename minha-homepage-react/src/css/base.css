@@ -1,0 +1,64 @@
+body {
+    font-family: 'Atkinson Hyperlegible Next', sans-serif;
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+body::before, body::after {
+    content: "";
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, var(--primary-color), transparent);
+    z-index: -1;
+}
+
+body::before {
+    top: 0;
+    left: 0;
+}
+
+body::after {
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fbc040;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+
+}
+
+.scroll-top-button:hover {
+    opacity: 3;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
